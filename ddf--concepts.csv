@@ -1,0 +1,5 @@
+concept,name,concept_type
+average_age_at_1st_marriage_girls,Average age at 1st marriage (girls),measure
+country,Country,entity_domain
+year,Year,time
+name,Name,string
