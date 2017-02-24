@@ -1,5 +1,0 @@
-key,value,file
-concept,name,ddf--concepts.csv
-concept,concept_type,ddf--concepts.csv
-"country,year",average_age_at_1st_marriage_girls,ddf--datapoints--average_age_at_1st_marriage_girls--by--country--year.csv
-country,name,ddf--entities--country.csv

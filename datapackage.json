@@ -1,0 +1,62 @@
+{
+    "name": "ddf--gapminder--hist_marriage_age",
+    "language": {
+        "id": "en"
+    },
+    "resources": [
+        {
+            "path": "ddf--concepts.csv",
+            "name": "ddf--concepts",
+            "schema": {
+                "primaryKey": "concept",
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "concept_type"
+                    }
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--average_age_at_1st_marriage_girls--by--country--year.csv",
+            "name": "ddf--datapoints--average_age_at_1st_marriage_girls--by--country--year",
+            "schema": {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "average_age_at_1st_marriage_girls"
+                    }
+                ]
+            }
+        },
+        {
+            "path": "ddf--entities--country.csv",
+            "name": "ddf--entities--country",
+            "schema": {
+                "primaryKey": "country",
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ]
+            }
+        }
+    ]
+}
